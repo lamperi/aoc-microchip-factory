@@ -23,7 +23,7 @@ public class AocMicrochipFactoryApplication {
              CoreQueueConfiguration queueConf = createQueueConf(destinationNames.buildRobotQueueName(String.valueOf(i)));
              configuration.addQueueConfiguration(queueConf);
           }
-          for (int i = 0; i < 3; ++i) {
+          for (int i = 0; i < 25; ++i) {
              CoreQueueConfiguration queueConf = createQueueConf(destinationNames.buildRobotQueueName(String.valueOf(i)));
              configuration.addQueueConfiguration(queueConf);
           }

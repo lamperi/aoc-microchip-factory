@@ -74,7 +74,7 @@ public class ProblemSolverImpl implements ProblemSolver {
          invoker.addWorker(valueInput);
       }
       
-      for (int i = 0; i < 2; i++) {
+      for (int i = 0; i < 3; i++) {
          OutputConsumer consumer = outputConsumerFactory.createOutputConsumer(String.valueOf(i));
          invoker.addWorker(consumer);
       }

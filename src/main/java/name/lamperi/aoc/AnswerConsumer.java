@@ -49,7 +49,7 @@ public class AnswerConsumer implements Runnable {
       
       answer = restTemplate.postForObject("http://localhost:8080/aoc/2016/10/part2", request, Integer.class);
       
-      logger.info("The product of output 1,2,3 is {}.", answer);
+      logger.info("The product of output 0,1,2 is {}.", answer);
       
       System.exit(0);
 
